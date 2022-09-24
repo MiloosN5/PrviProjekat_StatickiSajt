@@ -1,0 +1,244 @@
+#upload-header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Resursi/contest_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    min-height: 270px;
+    max-height: auto;
+    align-items: center;
+    color: white;
+}
+
+#upload-wrapper * {
+    font-size: 15px;
+}
+
+#upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+#upload-wrapper p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 280px;
+    max-width: 90%;
+}
+
+#upload-wrapper p:first-of-type {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#upload-wrapper button > a {
+    text-decoration: none;
+}
+
+#gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#gallery-container {
+    padding: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    width: auto;
+    height: auto;  
+    align-items: center;
+    margin: 15px 30px;
+    justify-content: space-between;    
+    gap: 15px; 
+}
+
+.gallery-item {
+    aspect-ratio: 1/1;
+    width: 250px;
+    height: 250px;
+}
+
+.item1 {
+    background-image: url("../Resursi/athen.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item2 {
+    background-image: url("../Resursi/havana.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item3 {
+    background-image: url("../Resursi/london.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item4 {
+    background-image: url("../Resursi/paris.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item5 {
+    background-image: url("../Resursi/quiske.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item6 {
+    background-image: url("../Resursi/rio.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item7 {
+    background-image: url("../Resursi/rome.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item8 {
+    background-image: url("../Resursi/taj_mahal.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item9 {
+    background-image: url("../Resursi/thailand.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.item10 {
+    background-image: url("../Resursi/venice.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#upload-icon {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+}
+
+#upload-icon img {
+    width: 75px;
+}
+
+footer {
+    display: flex;
+    background: #fca309;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px 0;
+    color: white;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+    #gallery-container {
+        grid-template-columns: repeat(3,250px);
+        width: 90%;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }     
+
+    #right_upload {
+        bottom: 20px;
+        right: 80px;
+    }  
+
+}
+
+@media (max-width: 900px) {
+    #gallery-container {
+        grid-template-columns: repeat(2,250px);
+        width: 80%;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 160px;
+    }
+    
+    #right_upload {
+        bottom: 20px;
+        right: 80px;
+    }   
+
+}
+
+@media (max-width: 680px) {
+    #gallery-container {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 250px;
+    }
+
+    .gallery-item {
+        width: auto;
+        height: auto;
+        max-width: 250px;
+        max-height: 250px;
+        aspect-ratio: 1/1;
+    }
+   
+}
+
+@media (max-width: 452px) {
+
+    #upload-header {
+        background-size: auto 100%;
+    } 
+
+}
+
+@media (max-width: 230px) {
+
+    #upload-icon {
+        left: 0%;
+        right: 0%;
+        text-align: center;
+    }
+
+    #upload-icon img {
+        max-width: 60%;
+    }
+}

@@ -1,0 +1,338 @@
+#map-header {
+    height: 300px;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+}
+
+#map-background {
+    display: flex;
+    background-image: url("../Resursi/travel_blog.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    left: 0;
+    right: 0;
+    height: 300px;
+}
+
+#offer-header {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#offer-header h2 {
+    text-transform: uppercase;
+    color: #fca309;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+#offer-header p {
+    font-size: 15px;
+    margin: 10px auto;
+    margin-top: 0px;
+    max-width: 90%;
+}
+
+#offers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.offer-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+.offer-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.offer-info-wrapper > h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.offer-info-wrapper > img {
+    width: 100px;
+    max-width: 90%;
+}
+
+.offer-info-wrapper > p:first-of-type {
+    width: 130px;
+    max-width: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;  
+}
+
+.offer-info-wrapper > p:nth-of-type(2) {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+aside {
+    border-top: 5px solid #fca309;
+    height: auto;
+    left: 0;
+    right: 0;
+}
+
+#upload-aside {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Resursi/contest_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    left: 0;
+    right: 0;
+    min-height: 450px;
+    max-height: auto;
+    align-items: center;
+    color: black;
+    max-width: 100%;
+}
+
+#upload-wrapper * {
+    font-size: 15px;
+}
+
+#upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: auto;
+    justify-content: center;
+    width: 220px;
+    max-width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#upload-aside p {
+    width: 200px;
+    max-width: 90%;
+}
+
+#upload-aside p:first-of-type {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#upload-aside button {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    background: rgb(0,0,0,0);
+    border-top: 2px solid #89734f;
+    border-left: 2px solid #89734f;  
+    padding: 8px;  
+    width: 90px;
+    max-width: 95%;
+}
+
+#upload-aside button > a {
+    text-decoration: none;
+}
+
+#destinations-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+#destinations-title {
+    text-transform: uppercase;
+    color: #fca309;
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#destinations-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.destination-container {
+    width: 360px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.destination-container:first-of-type {
+    background-image: url("../Resursi/venice.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 290% auto;    
+    background-clip: padding-box;
+}
+
+.destination-container:nth-child(2) {
+    background-image: url("../Resursi/paris.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 190% auto;    
+}
+
+.destination-container:nth-child(3) {
+    background-image: url("../Resursi/rome.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 210% auto;    
+}
+
+.destination-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+
+.destination-container p:first-of-type {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.destination-container p:nth-child(2) {
+    color: white;
+    font-size: 15px;
+    padding: 0 50px;
+    margin-top: 8px;
+}
+
+.destination-container button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    background: #fca3094D;
+    border: 2px solid white;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    background: #fca309;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px 0;
+    color: white;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 800px) {
+
+    #destinations-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .destination-container {
+        width: 90%;       
+    }
+
+    .destination-info-wrapper {
+        margin-top: -80px;
+        width: 100%;
+    }
+
+    .destination-container:first-of-type {
+        background-size: auto 100%;  
+        margin-bottom: 5px; 
+    }
+    
+    .destination-container:nth-child(2) {
+        background-size: auto 100%;      
+        margin-top: 5px;  
+        margin-bottom: 5px;               
+    }
+    
+    .destination-container:nth-child(3) {
+        background-size: auto 100%;   
+        margin-top: 5px;                
+    }   
+
+
+    .destination-container p:nth-child(2) {
+        padding: 0 220px;
+    }    
+
+}
+
+@media (max-width: 725px) {
+
+    #upload-aside {
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 455px) {
+
+    #map-background {
+        background-size: auto 100%;
+    }
+
+}
+
+@media (max-width: 180px) {
+
+    #offer-header h2 {
+        font-size: 18px;
+    }
+
+    #destinations-title {
+        font-size: 12px;
+    }
+}
+
